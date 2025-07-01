@@ -1,22 +1,6 @@
-# Read the Docs configuration file
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
-
-# Required
-version: 2
-
-# Set the OS, Python version, and other tools you might need
-build:
-  os: ubuntu-24.04
-  tools:
-    python: "3.13"
-
-# Build documentation in the "docs/" directory with Sphinx
-sphinx:
-   configuration: docs/conf.py
-
-# Optionally, but recommended,
-# declare the Python requirements required to build your documentation
-# See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
-# python:
-#    install:
-#    - requirements: docs/requirements.txt
+document.addEventListener("DOMContentLoaded", function () {
+    var ze = document.createElement('script');
+    ze.id = 'ze-snippet';
+    ze.src = 'https://static.zdassets.com/ekr/snippet.js?key=7668c976-0fb7-47ee-8740-3e9115bdb10f';
+    document.body.appendChild(ze);
+});
